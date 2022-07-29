@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  background-color: black;
+}
+
+/*Header*/
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: #e9ff00;
+  font-family: raleway, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  padding-right: 0.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+/*Image*/
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.img-caption {
+  text-align: center;
+  color: #e9ff00;
+  font-weight: 700;
+  background-color: black;
+  padding: 1em;
+}
+
+/*Intro*/
+
+.intro {
+  margin: 0 auto;
+  max-width: 1059px;
+  background-color: white;
+  color: black;
+  padding: 1em;
+}
+
+/*Tribute Info*/
+
+.tribute-info {
+  padding: 0 2em 1em 2em;
+  background-color: black;
+  color: white;
+}
+
+.tribute-info p {
+  margin: auto;
+}
+
+ul {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+li {
+  margin: 16px 0;
+}
+
+/*Button*/
+
+.button-container {
+  max-width: 1059px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #e9ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tribute-link {
+  text-align: center;
+  padding: 1.5em;
+  border-radius: 50%;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+}
+.tribute-link:hover {
+  background-color: #e9ff00;
+  color: black;
+  border: 2px solid black;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    color: white;
+    font-size: 2em;
+    padding-right: 0.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 414px) {
+  h1 {
+    padding-right: 0.25em;
+  }
+}
